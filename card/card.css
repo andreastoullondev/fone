@@ -1,8 +1,42 @@
 @import url(/style.css);
+
+.ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 16px;
+    
+}
+
+
+
+
 .card{
     background-color: var(--main-color);
     width: 180px;
     height: 260px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px var(--main-color);
+}
+
+.card h1 {
+    font-size: 1.2rem;
+
+}
+
+.card h2{
+    font-size: .9rem;
+    color: black;
+}
+
+.card button{
+    background-color: red;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
 }
