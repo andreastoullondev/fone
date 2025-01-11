@@ -6,7 +6,7 @@
     align-items: center;
     height: 100vh;
     gap: 16px;
-    
+
 }
 
 
@@ -18,6 +18,14 @@
     height: 260px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px var(--main-color);
+}
+
+.card img{
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: black;
 }
 
 .card h1 {
