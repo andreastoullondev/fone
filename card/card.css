@@ -57,3 +57,8 @@
     font-size: 1rem;
     font-weight: bold;
 }
+
+.card button:hover {
+    background-color: black;
+    cursor: pointer;
+  }
