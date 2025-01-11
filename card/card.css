@@ -1,0 +1,8 @@
+@import url(/style.css);
+.card{
+    background-color: var(--main-color);
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px var(--main-color);
+}
