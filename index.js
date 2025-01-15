@@ -13,3 +13,10 @@ menu.onclick = () => {
     menu.classList.toggle('bx-x');
     navbar.classList.toggle('open');
 }
+
+
+const prato = "sujo";
+
+for(let i = 0;i <= 10;i++){
+    console.log(prato)
+}
